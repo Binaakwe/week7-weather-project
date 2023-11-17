@@ -1,0 +1,17 @@
+body {background-color: rgb(240, 248, 255);}
+
+.weather-app {
+    background-color: white;
+    max-width: 600px;
+    padding: 30px;
+    margin: 20px auto;
+    box-shadow: 0 5px 20px rgb(182, 177, 210);
+    border-radius: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+
+footer {
+    font-size: 12px;
+    line-height: 40px;
+}
