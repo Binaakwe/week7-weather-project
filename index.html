@@ -20,13 +20,21 @@
         </form>
     </header>
     <main>
-        <h1>Toronto</h1>
-        <h2>8°C 🌧</h2>
-        <h3>Thursday 15:00</h3>
-        <ul>
-            <li>Humidity: 80%</li>
-            <li>Wind Speed: 12km/h</li>
+        <div class="current-weather">
+        <div>
+        <h1 id="search-city">Toronto</h1>
+    <h3 id="current-time">Thursday, 15:00</h3>
+        <ul class="current-weather-details">
+            <li>Humidity: <span id="current-humidity">80%</span></li>
+            <li>Wind Speed: <span id="current-windspeed">12km/h</span></li>
         </ul>
+        </div>
+        <div class="temperature-container">
+            <div id="current-temperature">8</div>
+            <div class="temperature-unit">°C</div> 
+            <div class="temperature-icon">🌧</div>
+        
+        </div></div>
     </main>
     <footer>This project was coded by <a href="#">Briana Lesage</a>. Code hosted on <a href="#">GitHub</a>, website hosted on <a href="#">Netlify</a></footer>
     </div>
