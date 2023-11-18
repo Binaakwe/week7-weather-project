@@ -10,11 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/index.css"/>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
 </head>
 <body>
     <div class="weather-app">
     <header>
-        <form class="search-form"">
+        <form class="search-form">
             <input type="search" placeholder="Enter a City..." required id="search-input"/>
             <input type="submit" value="Search" id="search-button" />
         </form>
@@ -22,15 +23,17 @@
     <main>
         <div class="current-weather">
         <div>
-        <h1 id="search-city">Toronto</h1>
-    <h3 id="current-time">Thursday, 15:00</h3>
+        <h1 id="city">Toronto</h1>
+    <h3 class="weather-description"> <div id="current-time">Thursday, 15:00</div> 
+       <div id="description"></div>
+    </h3>
         <ul class="current-weather-details">
-            <li>Humidity: <span id="current-humidity">80%</span></li>
-            <li>Wind Speed: <span id="current-windspeed">12km/h</span></li>
+            <li>Humidity: <span id="current-humidity">%</span></li>
+            <li>Wind Speed: <span id="current-windspeed">km/h</span></li>
         </ul>
         </div>
         <div class="temperature-container">
-            <div id="current-temperature">8</div>
+            <div id="current-temperature">10</div>
             <div class="temperature-unit">°C</div> 
             <div class="temperature-icon">🌧</div>
         
@@ -38,5 +41,6 @@
     </main>
     <footer>This project was coded by <a href="#">Briana Lesage</a>. Code hosted on <a href="#">GitHub</a>, website hosted on <a href="#">Netlify</a></footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 </html>
