@@ -70,6 +70,24 @@ body {background-color: rgb(240, 248, 255);}
     margin-top: 100px;
     padding: 0 20px 0 0;
 }
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.weather-forecast-icon {
+    width: 75px;
+}
+.weather-forecast-temperatures{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+.weather-forecast-temperature-min {
+ color: rgb(227, 28, 134);  
+}
 
 footer {
     font-size: 12px;
