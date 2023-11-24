@@ -32,23 +32,23 @@ body {background-color: rgb(240, 248, 255);}
 }
 .current-weather {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 #city {
     font-size: 48px;
-    padding-left: 20px;
+   
 }
 .weather-description {
     font-size: 18px;
-    padding-left: 40px;
+    
 }
 #description{
     color:rgb(227, 28, 134)
 }
 .current-weather-details {
-    list-style-type: none;
+   
     font-size: 15px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 #current-humidity, #current-windspeed {
     color: rgb(227, 28, 134);
@@ -56,6 +56,7 @@ body {background-color: rgb(240, 248, 255);}
 }
 .temperature-container {
     display: flex; 
+    justify-content: space-around;
 }
 #current-temperature {
     font-size: 70px;
@@ -66,9 +67,8 @@ body {background-color: rgb(240, 248, 255);}
     margin-top: 125px;
 }
 .temperature-icon {
-    
     margin-top: 100px;
-    padding: 0 20px 0 0;
+    
 }
 .weather-forecast {
     display: flex;
