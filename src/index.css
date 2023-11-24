@@ -36,19 +36,20 @@ body {background-color: rgb(240, 248, 255);}
 }
 #city {
     font-size: 48px;
+    margin-left: 10px;
    
 }
 .weather-description {
     font-size: 18px;
+    margin-left: 10px;
     
 }
 #description{
     color:rgb(227, 28, 134)
 }
 .current-weather-details {
-   
     font-size: 15px;
-    margin-bottom: 30px;
+    margin:0 0 30px 10px;
 }
 #current-humidity, #current-windspeed {
     color: rgb(227, 28, 134);
